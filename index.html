@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <title>DirectPay+ Advert Wall Bill</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -167,13 +167,13 @@
         }
         .arabic-version .card h3 {
             margin-bottom: 10px !important;
-            gap: 11px !important; /* +5px مسافة بين الأيقونة والنص */
+            gap: 11px !important;
         }
         .arabic-version .card ul li {
-            padding: 4px 25px 4px 0 !important; /* +5px مسافة بين الرمز والنص */
+            padding: 4px 25px 4px 0 !important;
         }
         .arabic-version .step-list li {
-            padding: 4px 33px 4px 0 !important; /* +5px مسافة بين الرقم والنص */
+            padding: 4px 33px 4px 0 !important;
         }
         .arabic-version .card p {
             margin-top: 8px !important;
@@ -186,7 +186,7 @@
             padding: 14px 20px !important;
         }
         .arabic-version .download-methods .method {
-            gap: 11px !important; /* +5px مسافة بين الإيموجي والنص في الأزرار */
+            gap: 11px !important;
         }
         .arabic-version .developer-section {
             padding: 14px 20px !important;
@@ -329,6 +329,11 @@
                         <a href="xender://" class="method" onclick="if(!confirm('Open Xender?')){return false;}"><span class="emoji">📡</span> Xender</a>
                         <a href="#" class="method" onclick="alert('📶 Opening Bluetooth...'); return false;"><span class="emoji">📶</span> Bluetooth</a>
                     </div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">Manual:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-left:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
+                    </div>
                     <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; justify-content:center; font-size:0.65rem; color:#94a3b8;">
                         <span><span class="badge-orange">1</span> Scan QR</span>
                         <span><span class="badge-orange">2</span> Tap "Download"</span>
@@ -379,6 +384,11 @@
             <div class="grid">
                 <div class="card full-width download-section"><h2>📲 Téléchargez et installez</h2><p class="sub">Obtenez l'application en quelques secondes</p>
                     <div class="download-methods"><a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" class="method"><span class="emoji">🛍️</span> NUSAPPSTORE</a><a href="#" class="method" onclick="alert('📷 Scanner le QR Code'); return false;"><span class="emoji">📷</span> Scanner QR</a><a href="https://wa.me/?text=T%C3%A9l%C3%A9chargez%20DirectPay%2B%20depuis%20NUSAPPSTORE%20%3A%20https%3A%2F%2Faminejalloh-io.github.io%2FNUSAPPSTORE%2F" target="_blank" class="method"><span class="emoji">💬</span> WhatsApp</a><a href="xender://" class="method" onclick="if(!confirm('Ouvrir Xender ?')){return false;}"><span class="emoji">📡</span> Xender</a><a href="#" class="method" onclick="alert('📶 Ouverture Bluetooth...'); return false;"><span class="emoji">📶</span> Bluetooth</a></div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">Manual:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-left:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
+                    </div>
                     <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; justify-content:center; font-size:0.65rem; color:#94a3b8;"><span><span class="badge-orange">1</span> Scannez QR</span><span><span class="badge-orange">2</span> Appuyez "Télécharger"</span><span><span class="badge-orange">3</span> Ouvrez et inscrivez-vous</span></div>
                     <div style="margin-top:6px; background:rgba(239,68,68,0.10); border:1px solid rgba(239,68,68,0.15); border-radius:8px; padding:4px 10px; text-align:left; font-size:0.65rem;"><strong style="color:#f87171;">⚠️ Restrictions du téléphone ?</strong><span style="color:#cbd5e1;">Paramètres → Sécurité → Installer des applis inconnues → activer. Puis <strong style="color:#fbbf24;">"Installer quand même"</strong>.</span></div>
                 </div>
@@ -395,13 +405,18 @@
             <div class="footer"><p>© 2026 DirectPay+ Business — Conçu avec ❤️ pour les entrepreneurs africains</p><p style="margin-top:2px; font-size:0.55rem;"><a href="#">Politique</a> • <a href="#">Conditions</a> • <a href="#">NUSAPPSTORE</a></p><p style="margin-top:3px; font-size:0.55rem; color:#475569;">📍 Téléchargez depuis NUSAPPSTORE • Scannez le QR • Partagez</p></div>
         `;
 
-        // ---- النسخة العربية مع مسافة 8px إضافية بين الإطارات والنصوص و 5px إضافية بين الأيقونات والنصوص ----
+        // ---- النسخة العربية ----
         const dp_ar = `
             <div class="arabic-version">
             <div class="header"><div class="badge">🚀 الجيل القادم من التجارة عبر الهاتف المحمول</div><h1>DirectPay<span class="plus">+</span> للأعمال</h1><p>آمن • سريع • ذكي • في كل مكان</p><div class="tagline">📱 اشترِ • بع • ادفع • أرسل — كل ذلك في تطبيق واحد</div></div>
             <div class="grid">
                 <div class="card full-width download-section"><h2>📲 تحميل وتثبيت</h2><p class="sub">احصل على التطبيق في هاتفك في ثوانٍ</p>
                     <div class="download-methods"><a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" class="method"><span class="emoji">🛍️</span> NUSAPPSTORE</a><a href="#" class="method" onclick="alert('📷 ميزة مسح رمز QR'); return false;"><span class="emoji">📷</span> مسح QR</a><a href="https://wa.me/?text=قم%20بتحميل%20DirectPay%2B%20من%20NUSAPPSTORE%3A%20https%3A%2F%2Faminejalloh-io.github.io%2FNUSAPPSTORE%2F" target="_blank" class="method"><span class="emoji">💬</span> واتساب</a><a href="xender://" class="method" onclick="if(!confirm('فتح إكسندر؟')){return false;}"><span class="emoji">📡</span> إكسندر</a><a href="#" class="method" onclick="alert('📶 جاري فتح البلوتوث...'); return false;"><span class="emoji">📶</span> بلوتوث</a></div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">دليل:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-right:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
+                    </div>
                     <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; justify-content:center; font-size:0.65rem; color:#94a3b8;"><span><span class="badge-orange">1</span> امسح QR</span><span><span class="badge-orange">2</span> اضغط "تنزيل"</span><span><span class="badge-orange">3</span> افتح وسجل</span></div>
                     <div style="margin-top:6px; background:rgba(239,68,68,0.10); border:1px solid rgba(239,68,68,0.15); border-radius:8px; padding:4px 10px; text-align:right; font-size:0.65rem;"><strong style="color:#f87171;">⚠️ قيود الهاتف؟</strong><span style="color:#cbd5e1;">الإعدادات → الأمان → تثبيت التطبيقات من مصادر غير معروفة → فعّل. ثم اضغط <strong style="color:#fbbf24;">"تثبيت على أي حال"</strong>.</span></div>
                 </div>
@@ -432,6 +447,11 @@
                         <a href="https://wa.me/?text=Download%20DirectPay%2D%20from%20NUSAPPSTORE%3A%20https%3A%2F%2Faminejalloh-io.github.io%2FNUSAPPSTORE%2F" target="_blank" class="method"><span class="emoji">💬</span> WhatsApp</a>
                         <a href="xender://" class="method" onclick="if(!confirm('Open Xender?')){return false;}"><span class="emoji">📡</span> Xender</a>
                         <a href="#" class="method" onclick="alert('📶 Opening Bluetooth...'); return false;"><span class="emoji">📶</span> Bluetooth</a>
+                    </div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">Manual:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-left:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
                     </div>
                     <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; justify-content:center; font-size:0.65rem; color:#94a3b8;">
                         <span><span class="badge-orange">1</span> Scan QR</span>
@@ -523,6 +543,11 @@
                         <a href="https://wa.me/?text=Download%20AfriPay%20from%20NUSAPPSTORE%3A%20https%3A%2F%2Faminejalloh-io.github.io%2FNUSAPPSTORE%2F" target="_blank" class="method"><span class="emoji">💬</span> WhatsApp</a>
                         <a href="xender://" class="method" onclick="if(!confirm('Open Xender?')){return false;}"><span class="emoji">📡</span> Xender</a>
                         <a href="#" class="method" onclick="alert('📶 Opening Bluetooth...'); return false;"><span class="emoji">📶</span> Bluetooth</a>
+                    </div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">Manual:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-left:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
                     </div>
                     <div style="margin-top:6px; background:rgba(239,68,68,0.10); border:1px solid rgba(239,68,68,0.15); border-radius:8px; padding:4px 10px; text-align:left; font-size:0.65rem;">
                         <strong style="color:#f87171;">⚠️ Phone Restrictions?</strong>
@@ -634,6 +659,11 @@
                         <a href="https://wa.me/?text=Download%20WeBine%20from%20NUSAPPSTORE%3A%20https%3A%2F%2Faminejalloh-io.github.io%2FNUSAPPSTORE%2F" target="_blank" class="method"><span class="emoji">💬</span> WhatsApp</a>
                         <a href="xender://" class="method" onclick="if(!confirm('Open Xender?')){return false;}"><span class="emoji">📡</span> Xender</a>
                     </div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">Manual:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-left:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
+                    </div>
                 </div>
                 <div class="card"><span class="icon">👥</span><h3>Create Profile</h3><ul><li>Sign up with your business name</li><li>Add your products and services</li><li>Connect with other businesses</li></ul></div>
                 <div class="card"><span class="icon">📢</span><h3>Promote</h3><ul><li>Share your products to your network</li><li>Get featured on WeBine marketplace</li><li>Run promotions and discounts</li></ul></div>
@@ -665,6 +695,11 @@
                         <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" class="method"><span class="emoji">🛍️</span> Open Store</a>
                         <a href="#" class="method" onclick="alert('📷 Scan QR Code'); return false;"><span class="emoji">📷</span> Scan QR</a>
                         <a href="https://wa.me/?text=Check%20out%20NUSAPPSTORE%3A%20https%3A%2F%2Faminejalloh-io.github.io%2FNUSAPPSTORE%2F" target="_blank" class="method"><span class="emoji">💬</span> WhatsApp</a>
+                    </div>
+                    <!-- رابط يدوي яркий -->
+                    <div style="margin-top:10px; padding:10px 14px; background: linear-gradient(135deg, #fbbf24, #f97316); border-radius:10px; text-align:center; box-shadow: 0 0 25px rgba(251,191,36,0.4);">
+                        <span style="font-weight:700; color:#0a1628; font-size:0.85rem;">Manual:-</span>
+                        <a href="https://aminejalloh-io.github.io/NUSAPPSTORE/" target="_blank" style="color:#0a1628; font-weight:600; text-decoration:underline; margin-left:5px; font-size:0.85rem; word-break:break-all;">https://aminejalloh-io.github.io/NUSAPPSTORE/</a>
                     </div>
                 </div>
                 <div class="card"><span class="icon">🔍</span><h3>Browse Apps</h3><ul><li>DirectPay+ (Business payments)</li><li>DirectPay- (Simplified)</li><li>AfriPay (Cross-border)</li><li>WeBine (Social commerce)</li><li>And many more...</li></ul></div>
